@@ -6,7 +6,7 @@ test("test greet component",()=>{
    expect(ele).toBeInTheDocument();
 });
 
-test("test greet component to ne wrong",()=>{
+test("test greet component with name arg",()=>{
    render(<Greet name="Poorna" />);
    const ele = screen.getByText("Hello Poorna");
    expect(ele).toBeInTheDocument();
