@@ -14,3 +14,12 @@
 
 7 . jest alo gives two methods , one is -> ```test.only("name",()=>{}) ``` to test only specific test </br>
                                , sec is -> ```test.skip("name",()=>{}) ```  to skip specific test </br>
+
+8 . jest provides | describe method | to group test cases - ```describe("group_name", group of test cases within a funciton block ) ```  </br> 
+
+9 . to filter on describe method , we can use ```describe.only()``` and ```describe.skip()```</br>
+
+10 . we can nest inside describe method , so that you can create sub groups </br> 
+
+11 . one suite corresponds to one file not based on different test groups or describe methods or test methods </br>
+
