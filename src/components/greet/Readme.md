@@ -23,3 +23,9 @@
 
 11 . one suite corresponds to one file not based on different test groups or describe methods or test methods </br>
 
+12 . we have alternate method to ``` test() || it()``` and ```test.only() || fit()``` and  ```test.skip() || xit()```</br> 
+
+13 . testing components have filing conventions accepted are : </br>
+       1 . AppComponentName.test.tsx || AppComponentName.test.js convention </br>
+       2 . AppComponentName.spec.tsx || AppComponentName.spec.js convention </br>
+       3 . files within __tests__ folder , which have .tsx || .js extensions </br> 
