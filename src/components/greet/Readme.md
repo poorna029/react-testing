@@ -41,3 +41,9 @@
        1 . AppComponentName.test.tsx || AppComponentName.test.js convention </br>
        2 . AppComponentName.spec.tsx || AppComponentName.spec.js convention </br>
        3 . files within __tests__ folder , which have .tsx || .js extensions </br> 
+
+## codecoverage 
+
+14 . It is a metric , to uderstand how much software code is tested . how many statements, branches , functions , and lines of code is tested </br>
+
+15 . to do so , jest and rtl provides coverage reports with zero configuration , with few changes in package.json file </br>
